@@ -138,3 +138,26 @@ img {
 #hide-recipe:active {
     background-color: #eeebeb;
 }
+
+ul {
+    font-size: 1em;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0.8em 1.1em;
+    padding: 1.2em 0 0 1.2em;
+    color: #303040;
+    text-transform: capitalize;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 1.8em;
+    color: #202030;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        font-size: 14px;
+    }
+}
